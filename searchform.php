@@ -1,0 +1,2 @@
+<form method="get" id="searchform" class="searchform themeform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+  <div> <input type="text" class="search" name="s" placeholder="Cari disini..." value="<?php the_search_query(); ?>" /> <input type="submit" id="searchsubmit" /></div></form>
